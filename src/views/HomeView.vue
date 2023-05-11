@@ -172,4 +172,7 @@ tsParticles.load("tsparticles", {
 .container > * {
   z-index: 1;
 }
+a {
+  text-decoration: none;
+}
 </style>
