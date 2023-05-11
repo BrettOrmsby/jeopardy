@@ -7,7 +7,22 @@ export default {
 <template>
   <div class="bar">
     <div>
-      <RouterLink to="/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-home"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></RouterLink>
+      <RouterLink to="/"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-home"
+        >
+          <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline></svg
+      ></RouterLink>
     </div>
     <div>
       <Button class="team1" @click="team1overlay?.toggle">
@@ -143,7 +158,23 @@ export default {
       ></Button>
     </OverlayPanel>
     <div>
-      <RouterLink to="/rules"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></RouterLink>
+      <RouterLink to="/rules"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-help-circle"
+        >
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+          <path d="M12 17h.01"></path></svg
+      ></RouterLink>
     </div>
   </div>
 </template>
@@ -168,6 +199,7 @@ const team2overlay = ref<any>();
   left: 0;
   background-color: var(--surface-card);
   padding: var(--content-padding);
+  border-top: 1px solid var(--surface-border);
 }
 
 .turn {
@@ -201,7 +233,7 @@ const team2overlay = ref<any>();
 a {
   color: var(--primary-400);
 }
-a:hover{
-  color: var(--primary-500)
+a:hover {
+  color: var(--primary-500);
 }
 </style>

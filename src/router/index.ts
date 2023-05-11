@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: HomeView,
+      component: HomeView
     },
     {
       path: "/rules",
@@ -29,7 +29,7 @@ const router = createRouter({
 });
 
 router.beforeEach(() => {
-  document.getElementById("tsparticles")?.remove()
-})
+  document.getElementById("tsparticles")?.remove();
+});
 
 export default router;

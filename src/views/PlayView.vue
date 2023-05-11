@@ -58,6 +58,15 @@ import { store } from "@/store/gameStat";
 h2 {
   text-align: center;
   margin: 0;
+  font-size: 1em;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+svg {
+  height: 1em;
 }
 .board-container {
   display: flex;

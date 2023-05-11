@@ -19,7 +19,7 @@ export const store = reactive({
   openQuestionModal: false,
   currentQuestion: null,
   questions: {
-    topic: [
+    Issues: [
       {
         question: "q",
         answer: "a",
@@ -51,7 +51,7 @@ export const store = reactive({
         points: 500
       }
     ],
-    topic2: [
+    "Food Chains": [
       {
         question: "q",
         answer: "a",
@@ -83,7 +83,7 @@ export const store = reactive({
         points: 500
       }
     ],
-    topic3: [
+    "Nutrient Cycles": [
       {
         question: "q",
         answer: "a",
@@ -109,13 +109,13 @@ export const store = reactive({
         points: 400
       },
       {
-        question: "q",
-        answer: "a",
+        question: "What are four ways in which humans influence the nitrogen cycle?",
+        answer: "Fertilizer, Crop Rotation, Lawn Aeration and Pesticides",
         isComplete: false,
         points: 500
       }
     ],
-    topic4: [
+    "Population Relationships": [
       {
         question: "q",
         answer: "a",
@@ -141,13 +141,13 @@ export const store = reactive({
         points: 400
       },
       {
-        question: "q",
-        answer: "a",
+        question: "",
+        answer: "",
         isComplete: false,
         points: 500
       }
     ],
-    topic5: [
+    Ecology: [
       {
         question: "q",
         answer: "a",

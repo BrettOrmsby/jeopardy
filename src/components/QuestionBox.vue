@@ -44,7 +44,7 @@ const openModal = (question: Question, topic: string) => {
 }
 
 .box:hover {
-  background-color: var(--primary-400);
+  background-color: var(--primary-600);
 }
 
 .box.completed {

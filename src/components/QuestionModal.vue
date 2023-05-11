@@ -12,9 +12,11 @@ export default {
     :style="{ width: '50vw' }"
     :closable="false"
   >
+  <h3>Question</h3>
     <p>
       {{ store.currentQuestion?.question }}
     </p>
+    <h3>Answer</h3>
     <Inplace>
       <template #display>
         <Button label="Reveal Answer" severity="secondary">
