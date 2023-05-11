@@ -15,11 +15,11 @@ export default {
       <li>Form two teams.</li>
       <li>
         Team 1 will take the first turn. They will select a category and point value.
-        <img src="/images/play.png" alt="Play screen"/>
+        <img src="/images/play.png" alt="Play screen" />
       </li>
       <li>
         Team 1 must discuss the answer among themselves and then verbally provide their answer.
-        <img src="/images/question.png" alt="Question"/>
+        <img src="/images/question.png" alt="Question" />
       </li>
       <li>
         If Team 1's answer is correct, they will score the points associated with the selected
@@ -80,7 +80,7 @@ export default {
       <li>
         Once the individual requests to use the bathroom, they will choose a special bathroom
         question to answer.
-        <img src="/images/bathroom.png" alt="Bathroom Questions"/>
+        <img src="/images/bathroom.png" alt="Bathroom Questions" />
       </li>
       <li>
         The individual must attempt to answer the bathroom question without any assistance from

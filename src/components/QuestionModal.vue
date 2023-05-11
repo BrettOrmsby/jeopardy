@@ -12,7 +12,7 @@ export default {
     :style="{ width: '50vw' }"
     :closable="false"
   >
-  <h3>Question</h3>
+    <h3>Question</h3>
     <p>
       {{ store.currentQuestion?.question }}
     </p>
