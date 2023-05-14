@@ -58,7 +58,7 @@ import { store } from "@/store/gameStat";
 h2 {
   text-align: center;
   margin: 0;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 h1 {

@@ -40,7 +40,7 @@ export default {
         </Button>
       </template>
       <template #content>
-        <p>
+        <p style="white-space: pre-wrap">
           {{ store.currentQuestion?.answer }}
         </p>
       </template>
