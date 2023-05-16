@@ -223,7 +223,7 @@ Salinity: The salt levels of water affect what can survive in the water`,
         points: 3
       },
       {
-        question: "Approximately how much percent of energy is lost at each trophic level?",
+        question: "Approximately what percent of energy is kept at each trophic level?",
         answer: "10%",
         isComplete: false,
         points: 4
