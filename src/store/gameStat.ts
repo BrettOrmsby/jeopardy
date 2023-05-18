@@ -22,7 +22,7 @@ export const store = reactive({
     Issues: [
       {
         question: "What is a species at risk?",
-        answer: "A wildlife species that is facing imminent extirpation or extinction.",
+        answer: "An organism that may disappear unless humans step into help.",
         isComplete: false,
         points: 100
       },
@@ -205,8 +205,8 @@ Salinity: The salt levels of water affect what can survive in the water`,
     ],
     Bathroom: [
       {
-        question: "How many levels of species at risk are there? What level is the most severe?",
-          answer: "There are 5 levels of species at risk with extinct being the most severe.",
+        question: "How many catagories of species at risk are there? What level is the most severe?",
+          answer: "There are 5 catagories of species at risk with extinct being the most severe. (extinct, extirpated, endangered, threatened, special concern/vulnerable)",
         isComplete: false,
         points: 1
       },
