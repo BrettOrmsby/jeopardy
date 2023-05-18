@@ -22,7 +22,7 @@ export const store = reactive({
     Issues: [
       {
         question: "What is a species at risk?",
-        answer: "An organism that may disappear unless humans step into help.",
+        answer: "An organism that may disappear unless humans step in to help.",
         isComplete: false,
         points: 100
       },
@@ -30,16 +30,16 @@ export const store = reactive({
         question: "How might an invasive species negatively impact an ecosystem?",
         answer: `Answers include:
 Competition: increased competition might lead to declines in populations of native species
-Predation: invasive species might be able to pray upon native species easier because the pray have not evolved defenses against them
-Habitat alteration: invasive species might modify environment factors like water quality
-Disease introduction: invasive species might bring new diseases with them that native species have not developed a resistance towards
-Nutrient cycle disruption: invasive species might affect the nutrient cycle and leave less nutrients for other species`,
+Predation: invasive species might be able to pray upon native species easier because the pray have not evolved defences against them
+Habitat alteration: invasive species might modify environmental factors like water quality
+Disease introduction: invasive species might bring new diseases with them that native species have not developed resistance towards
+Nutrient cycle disruption: invasive species might affect the nutrient cycle and leave fewer nutrients for other species`,
         isComplete: false,
         points: 200
       },
       {
         question: "What effect might pesticides have on an environment?",
-        answer: "Answers include harming non-targeted species, contaminating soil or water, and harming predators by decreasing their pray or through bioamplification.",
+        answer: "Answers include harming non-targeted species, contaminating soil or water, and harming predators by decreasing their prey or through bioamplification.",
         isComplete: false,
         points: 300
       },
@@ -51,7 +51,7 @@ Nutrient cycle disruption: invasive species might affect the nutrient cycle and 
       },
       {
         question: "What is acid precipitation and how does it affect aquatic and terrestrial ecosystems?",
-        answer: "Acid precipitation is precipitation that is more acidic than usual caused by certain chemicals released in the air. Acid precipitation causes lakes and rivers to become more acidic, decreasing the amount of species that are able to live there. It decreases the nutrients in terrestrial ecosystems, lowering the number of plant species.",
+        answer: "Acid precipitation is precipitation that is more acidic than usual caused by certain chemicals released in the air. Acid precipitation causes lakes and rivers to become more acidic, decreasing the number of species that can live there. It decreases the nutrients in terrestrial ecosystems, lowering the number of plant species.",
         isComplete: false,
         points: 500
       }
@@ -65,19 +65,19 @@ Nutrient cycle disruption: invasive species might affect the nutrient cycle and 
       },
       // TODO: what are the others
       {
-        question: "Name three ways energy is lost when traveling through a food chain.",
+        question: "Name three ways energy is lost when travelling through a food chain.",
         answer: "Energy can be lost due to movement, seeding and feces.",
         isComplete: false,
         points: 200
       },
       {
-        question: "What is a autotroph and a heterotroph?",
+        question: "What is an autotroph and a heterotroph?",
         answer: "A autotroph is a producer and a heterotroph is a consumer.",
         isComplete: false,
         points: 300
       },
       {
-        question: "Create a five step food chain and label the levels of consumers. (hint: quaternary consumer)",
+        question: "Create a five-step food chain and label the levels of consumers. (hint: quaternary consumer)",
         answer: "dandelion (producer) → fly (primary consumer) → spider (secondary consumer) → frog (tertiary consumer) → snake (quaternary consumer)",
         isComplete: false,
         points: 400
@@ -140,7 +140,7 @@ Cellular Respiration:
         points: 100
       },
       {
-        question: "Define and give and example of commensalism.",
+        question: "Define and give an example of commensalism.",
         answer: "Commensalism means that one individual benefits and the other neither benefits nor is harmed. For example, some ferns benefit from the shade provided by taller trees.",
         isComplete: false,
         points: 200
@@ -153,16 +153,16 @@ Cellular Respiration:
       },
       {
         question: "If the rabbit population increases, what would happen to the fox population? Would the result then affect the rabbit population?",
-        answer: "The fox population would increase because the greater food source and this would then cause the rabbit population to decrease because their are more predators.",
+        answer: "The fox population would increase because of the greater food source and this would then cause the rabbit population to decrease because there are more predators.",
         isComplete: false,
         points: 400
       },
       {
         question: "How do at least 3 abiotic factors contribute to the carrying capacity of an environment? ",
         answer: `Answers include:
-Light availability: More light allows more plant growth that provide more food sources
+Light availability: More light allows more plant growth that provides more food sources
 Water availability: More water allows less competition to drink
-Nutrient Availability: More nutrients allow more plant growth that provide more food sources
+Nutrient Availability: More nutrients allow more plant growth that provides more food sources
 Temperature: Extreme temperatures contribute to less plant growth which limits the food available for animals
 Acidity: Acidity of water in aquatic ecosystems contribute to less plant growth and fewer species
 Salinity: The salt levels of water affect what can survive in the water`,
@@ -190,7 +190,7 @@ Salinity: The salt levels of water affect what can survive in the water`,
         points: 300
       },
       {
-        question: "What canadian biome contains the most biodiversity?",
+        question: "What Canadian biome contains the most biodiversity?",
         answer: "Boreal Forest",
         isComplete: false,
         points: 400
@@ -205,8 +205,8 @@ Salinity: The salt levels of water affect what can survive in the water`,
     ],
     Bathroom: [
       {
-        question: "How many catagories of species at risk are there? What level is the most severe?",
-          answer: "There are 5 catagories of species at risk with extinct being the most severe. (extinct, extirpated, endangered, threatened, special concern/vulnerable)",
+        question: "How many categories of species at risk are there? What level is the most severe?",
+          answer: "There are 5 categories of species at risk with extinct being the most severe. (extinct, extirpated, endangered, threatened, special concern/vulnerable)",
         isComplete: false,
         points: 1
       },
